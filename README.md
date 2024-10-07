@@ -3,6 +3,11 @@
 
 This project is a backend service for an  job recommendation system that matches user profiles with relevant job postings based on skills, experience, and preferences.
 
+## Documentation Link
+```
+https://docs.google.com/document/d/14_6iN9cEQikA4y7YPERIMjLJ5VYlwkuVk2Frjf2IFB4/edit?usp=drive_link
+```
+
 ## Table of Contents
 - [Technologies](#technologies)
 - [Features](#features)
@@ -113,8 +118,7 @@ You can populate the MongoDB database with mock job postings. To do so, you can 
         "job_type": "Full-Time",
         "required_skills": ["JavaScript", "React", "Node.js"],
         "experience_level": "Intermediate"
-      },
-      ...
+      }
     ]
     ```
 
