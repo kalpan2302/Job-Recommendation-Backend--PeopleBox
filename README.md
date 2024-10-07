@@ -1,12 +1,12 @@
 
-# Job Recommendation Backend Service
+# Job Recommendation Backend
 
 This project is a backend service for an  job recommendation system that matches user profiles with relevant job postings based on skills, experience, and preferences.
 
 ## Documentation Link
-```
-https://docs.google.com/document/d/14_6iN9cEQikA4y7YPERIMjLJ5VYlwkuVk2Frjf2IFB4/edit?usp=drive_link
-```
+
+- Here is detail [Documentation](https://docs.google.com/document/d/14_6iN9cEQikA4y7YPERIMjLJ5VYlwkuVk2Frjf2IFB4/edit?usp=drive_link) of Job Recommendation Backend
+
 
 ## Table of Contents
 - [Technologies](#technologies)
