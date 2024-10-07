@@ -49,16 +49,16 @@ Before setting up the project, ensure you have the following installed:
 
 ### 2. Clone the Repository
 Clone the repository to your local machine:
-\`\`\`bash
+```bash
 git clone https://github.com/kalpan2302/Job-Recommendation-Backend--PeopleBox.git
 cd Job-Recommendation-Backend--PeopleBox
-\`\`\`
+```
 
 ### 3. Install Dependencies
 Navigate to the project directory and install the necessary dependencies:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 4. Set Up MongoDB
 If you haven't already, set up a MongoDB instance. You can either:
@@ -66,16 +66,16 @@ If you haven't already, set up a MongoDB instance. You can either:
 - Use **MongoDB Atlas** for a cloud-based solution.
 
 Create a \`.env\` file in the root directory with the following content, replacing \`<your-mongodb-uri>\` with your MongoDB connection string:
-\`\`\`
+```
 MONGODB_URI=mongodb://127.0.0.1:27017/Job_Recommandation
 PORT=3000
-\`\`\`
+```
 
 ### 5. Run the Server
 Start the server:
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 By default, the service will run on \`http://localhost:3000\`.
 
@@ -87,11 +87,11 @@ You can populate the MongoDB database with mock job postings. To do so, you can 
 ### POST \`/profile\`
 - **Description:** Returns job recommendations for a given user profile.
 - **Request Head:**
-    \`\`\`
+    ```
         content-type : application/json
-    \`\`\`
+    ```
 - **Request Body:** (JSON)
-    \`\`\`json
+    ```json
     {
       "name": "John Doe",
       "skills": ["JavaScript", "Node.js", "React"],
@@ -102,9 +102,9 @@ You can populate the MongoDB database with mock job postings. To do so, you can 
         "job_type": "Full-Time"
       }
     }
-    \`\`\`
+    ```
 - **Response:** (JSON)
-    \`\`\`json
+    ```json
     [
       {
         "job_title": "Software Engineer",
@@ -116,5 +116,5 @@ You can populate the MongoDB database with mock job postings. To do so, you can 
       },
       ...
     ]
-    \`\`\`
+    ```
 
