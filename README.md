@@ -25,7 +25,7 @@ This project is a backend service for an  job recommendation system that matches
 - Proper error handling for API requests and database operations.
 
 ## Folder Structure
-\`\`\`
+```
 ├── controllers
 │   └── UserJobProfile.Controller.js   # Handles recommendation logic
 ├── models
@@ -37,7 +37,7 @@ This project is a backend service for an  job recommendation system that matches
 ├── app.js                             # Main entry point (Express server)
 ├── package.json                       # Dependencies and scripts
 └── README.md                          # Documentation
-\`\`\`
+```
 
 ## Setup Instructions
 
@@ -67,7 +67,7 @@ If you haven't already, set up a MongoDB instance. You can either:
 
 Create a \`.env\` file in the root directory with the following content, replacing \`<your-mongodb-uri>\` with your MongoDB connection string:
 \`\`\`
-MONGODB_URI=mongodb://localhost:27017/job_recommendation_service
+MONGODB_URI=mongodb://127.0.0.1:27017/Job_Recommandation
 PORT=3000
 \`\`\`
 
@@ -84,7 +84,7 @@ You can populate the MongoDB database with mock job postings. To do so, you can 
 
 ## API Endpoints
 
-### POST \`/recommendations\`
+### POST \`/profile\`
 - **Description:** Returns job recommendations for a given user profile.
 - **Request Head:**
     \`\`\`
@@ -118,8 +118,3 @@ You can populate the MongoDB database with mock job postings. To do so, you can 
     ]
     \`\`\`
 
-## Usage
-
-1. Use a tool like **Postman** or **curl** to send requests to the API and test the service.
-
-`;
