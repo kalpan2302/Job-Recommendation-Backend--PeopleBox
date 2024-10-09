@@ -16,7 +16,7 @@ This project is a backend service for an  job recommendation system that matches
 - [API Endpoints](#api-endpoints)
 - [Usage](#usage)
 - [Testing](#testing)
-  
+
 ## Technologies
 - **Node.js**
 - **Express.js** (RESTful API)
@@ -89,7 +89,7 @@ You can populate the MongoDB database with mock job postings. To do so, you can 
 
 ## API Endpoints
 
-### POST \`/profile\`
+### POST \`/user/profile\`
 - **Description:** Returns job recommendations for a given user profile.
 - **Request Head:**
     ```
